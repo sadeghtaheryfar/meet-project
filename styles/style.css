@@ -54,6 +54,7 @@ main{
     display: flex;
     padding: 0.5rem 1rem;
     border-bottom: 1px solid #d1d1d1;
+    justify-content: space-between;
 }
 
 
@@ -71,6 +72,7 @@ main{
 .host-style{
     border-bottom: none !important;
     padding: 0.5rem 0.3rem !important;
+    justify-content: right !important;
     background-color: #e6e6e6;
     border-radius: 6px;
 }
@@ -170,19 +172,9 @@ main{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    z-index: 100;
+    z-index: 99;
 }
 
-
-.mic-red path{
-    stroke: red;
-    fill: red;
-}
-
-.mic-yellow path{
-    stroke: yellow;
-    fill: yellow;
-}
 
 .hide-pc{
     display: none !important;
@@ -246,6 +238,33 @@ main{
 
 .navbar .active{
     background-color: white;
+}
+
+
+.icon-green svg path{
+    fill: green;
+    stroke: green;
+}
+
+
+.icon-stroke-green svg path{
+    stroke: green;
+}
+
+
+.icon-stroke-red svg path{
+    stroke: red;
+}
+
+
+.icon-red svg path{
+    fill: red;
+    stroke: red;
+}
+
+.icon-yellow svg path{
+    fill: yellow;
+    stroke: yellow;
 }
 
 
